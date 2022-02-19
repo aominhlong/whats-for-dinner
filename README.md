@@ -1,23 +1,22 @@
 # What's for Dinner?
 
-## Overview
+## Contributers
+Nicholas Ao
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
+## Technologies used
+* JavaScript
+* html
+* css
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+##Information about What's for Dinner
+This was a solo project that was designed to gain experience and practice HTML and CSS. Users are able to select a specific meal option and be given suggestions on what to cook.
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
+##Instructions for Viewing
+To view this project:
+- Go to this GitHub [link](https://github.com/aominhlong/whats-for-dinner) and clone it in your terminal.
+- Afterwards, `cd` this project and run `open index.html`
 
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+##How to Get food suggestions
+- Select an option (Side, Main Dish, Dessert, Entire Meal).
+- Click the `LET'S Cook!` button.
+- The cooking pot should disappear and be replaced by a food suggestion to cook in the box on the right.
