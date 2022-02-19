@@ -6,7 +6,6 @@
   <header>
     <title>What's for Dinner?</title>
   </header>
-
   <header>
     <section class="top-of-page">
       <div class="whats-for-dinner">
@@ -17,45 +16,48 @@
       </div>
     </section>
   </header>
-
   <space>
     <section class="space"></section>
   </space>
-
   <body background="assets/burger-friends.jpg">
     <section class="body">
-      <fieldset class="looking-box">
-        <h3 class="box-question">What are you looking for?</h3>
+      <section class="looking-box">
+        <h3 class="box-question">What are you looking for?<span class="astric">*</span></h3>
         <label class="bullets">
-          <input type="radio" id="side-dish">Side</input>
-          <br>
-          <br>
-        <label class="bullets">
-          <input type="radio" id="main-dish">Main Dish</input>
+          <input type="radio" class="dish" name = "input1" id="side-dish">Side</input>
           <br>
           <br>
         <label class="bullets">
-          <input type="radio" id="dessert">Dessert</input>
+          <input type="radio" class="dish" name = "input1" id="main-dish">Main Dish</input>
           <br>
           <br>
         <label class="bullets">
-          <input type="radio" id="all-dishes">Entire Meal</input>
+          <input type="radio" class="dish" name = "input1" id="dessert-dish">Dessert</input>
+          <br>
+          <br>
+        <label class="bullets">
+          <input type="radio" class="dish" name = "input1" id="entire-meal">Entire Meal</input>
           <br>
           <br>
         <section class="lets-cook-location">
           <button class="lets-cook-button" type="button">LET'S COOK!</button>
         </section>
-      </fieldset>
-
-      <fieldset class="dinner-box">
-          <section class="you-should-make hidden">
-              <p class="make">You should make $
-          <!-- empty -->
-          <img class = "pot" src=.//assets/cookpot.svg>
-      </fieldset>
+      </section>
+    <section class="dinner-box">
+      <img class = "pot" src=.//assets/cookpot.svg>
+    </section>
+    <section class="dinner-box2 hide">
+      <section class="should-make-box">
+        <h3 class="you-should-make">You should make: <br>
+          <span class="foodInput">    </span></h3>
+      <div class="clear-container">
+        <button class="clear-button" type="button">CLEAR</button>
+      </div>
+      </section>
     </section>
   </body>
 
 
   <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="food.js"></script>
 </html>
